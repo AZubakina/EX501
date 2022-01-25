@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55fbac6e-0898-4c3d-bf7f-ecfacb6d03d2">
+  <producedTypes>
+    <objectType typeId="fb1b37bf-eea1-4e4c-939f-0b962f181ff1" valueTypeId="e0d2fc85-ef89-454c-82fe-a386adac25fd"/>
+    <refType typeId="d56429a7-1e2e-457b-8d16-fef1eabcb3d9" valueTypeId="78622c7d-f61c-4c0c-b88c-299e5589757b"/>
+    <selectionType typeId="f48d8bfb-fb72-4d8f-a210-0d789e8356bb" valueTypeId="81f17381-55a1-4df8-8361-6ea3657bac0a"/>
+    <listType typeId="fbc71155-da3f-468c-8c44-fe5c7225a28b" valueTypeId="2f41cb7f-ec9a-4911-b4dc-501e56756244"/>
+    <managerType typeId="a2fdb8a4-d7b3-4563-a5f2-8271fa85e96e" valueTypeId="e72cb7c9-32e3-4f0d-aaa0-9bc5d9a07efe"/>
+  </producedTypes>
+  <name>Реализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Реализация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="166fccef-d25c-49d1-8173-c1ef4c9ea166">
+    <producedTypes>
+      <objectType typeId="bbbf1e11-aa87-4169-89ba-0b78551f1fbc" valueTypeId="cd1f53b5-2094-4d8e-ad93-1cb1c1bf244e"/>
+      <rowType typeId="5928500b-eb88-4c13-9221-dd44faa36192" valueTypeId="2b084bc9-539d-4ceb-be31-35b3c5db041a"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="73557b49-9557-4738-aa9b-b989c9102748">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a77b10ea-90f4-4243-b958-6ce996658be3">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="478ccda6-d806-459b-9ead-98db429e55a9">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ccf83982-ea0d-4d04-af8a-8086eaf44b59">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

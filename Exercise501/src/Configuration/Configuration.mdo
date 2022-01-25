@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b2dd06c-3fb3-48fc-9fdf-8dcbd11b365d">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d9d427ce-e6e5-4ec7-92fb-0522679f5eba"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a0528f88-6e54-45db-bd84-fe0d37194b77"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f6570d94-2350-45c9-9122-791e3a243868"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="67d5d88b-7f14-42ee-9f28-ccbd2fbcb770"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b3ba0fb6-0245-400b-bb46-503b736aecf1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f437a24b-8aca-49ad-b032-6eef5292603b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="de7ab89d-0931-47cd-8c3c-7f185b50d314"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="d939be1c-9030-4247-8269-2782005e13d1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.Реализация</documents>
+</mdclass:Configuration>
